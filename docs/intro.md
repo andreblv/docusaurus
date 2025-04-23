@@ -2,46 +2,118 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Guía de Chrome DevTools
 
-Let's discover **Docusaurus in less than 5 minutes**.
+<div class="devtools-panel">
+  Bienvenido a la guía completa de las Herramientas de Desarrollo de Chrome (Chrome DevTools). Esta documentación te ayudará a dominar las herramientas esenciales para el desarrollo web moderno.
+</div>
 
-## Getting Started
+## Descripción General
 
-Get started by **creating a new site**.
+Chrome DevTools es un conjunto de herramientas de desarrollo web integradas directamente en el navegador Google Chrome.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+<div class="features-list">
+  <div class="feature-item">
+    <h3>🔍 Inspección</h3>
+    Inspecciona y modifica el DOM y CSS en tiempo real
+  </div>
+  <div class="feature-item">
+    <h3>🐞 Depuración</h3>
+    Depura código JavaScript con facilidad
+  </div>
+  <div class="feature-item">
+    <h3>📊 Rendimiento</h3>
+    Analiza rendimiento y uso de memoria
+  </div>
+  <div class="feature-item">
+    <h3>🚀 Optimización</h3>
+    Optimiza la carga de recursos
+  </div>
+</div>
 
-### What you'll need
+## Paneles Principales
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### <span class="devtools-shortcut">Ctrl+Shift+C</span> [Panel de Elementos](./chrome-devtools/elements)
+Inspecciona y modifica el DOM y CSS de tu página web.
 
-## Generate a new site
+### <span class="devtools-shortcut">Ctrl+Shift+J</span> [Panel de Consola](./chrome-devtools/console)
+Registra información de diagnóstico y ejecuta comandos JavaScript.
 
-Generate a new Docusaurus site using the **classic template**.
+### <span class="devtools-shortcut">Ctrl+Shift+I</span> [Panel de Sources](./chrome-devtools/sources)
+Depura JavaScript con puntos de interrupción y analiza archivos fuente.
 
-The classic template will automatically be added to your project after you run the command:
+### [Panel de Red](./chrome-devtools/network)
+Monitorea y optimiza las peticiones de red de tu aplicación.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+### [Panel de Rendimiento](./chrome-devtools/performance)
+Analiza el rendimiento en tiempo de ejecución de tu sitio.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+### [Panel de Memoria](./chrome-devtools/memory)
+Identifica problemas de memoria y fugas en JavaScript.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+### [Panel de Aplicación](./chrome-devtools/application)
+Inspecciona recursos y datos almacenados localmente.
 
-## Start your site
+### [Panel de Seguridad](./chrome-devtools/security)
+Depura problemas de certificados y HTTPS.
 
-Run the development server:
+### [Panel de Lighthouse](./chrome-devtools/lighthouse)
+Audita rendimiento, accesibilidad, PWA y más.
 
-```bash
-cd my-website
-npm run start
-```
+### [Panel de Grabación](./chrome-devtools/recorder)
+Graba y reproduce flujos de usuario para pruebas.
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+## Comenzando
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+<div class="devtools-panel">
+  <h3>Abre Chrome DevTools:</h3>
+  <ul>
+    <li>Windows/Linux: <span class="devtools-shortcut">F12</span> o <span class="devtools-shortcut">Ctrl + Shift + I</span></li>
+    <li>macOS: <span class="devtools-shortcut">Cmd + Option + I</span></li>
+  </ul>
+</div>
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+### Explora los paneles:
+- Usa <span class="devtools-shortcut">Ctrl + [</span> y <span class="devtools-shortcut">Ctrl + ]</span> para navegar entre paneles
+- Presiona <span class="devtools-shortcut">?</span> para ver todos los atajos de teclado
+- Usa <span class="devtools-shortcut">Ctrl + Shift + P</span> para acceder al menú de comandos
+
+### Personaliza tu espacio de trabajo:
+- Ajusta el tema claro/oscuro
+- Configura tu disposición preferida
+- Establece tus atajos de teclado
+
+## Mejores Prácticas
+
+<div class="features-list">
+  <div class="feature-item">
+    <h3>🕵️ Depuración</h3>
+    Utiliza el modo incógnito para pruebas limpias
+  </div>
+  <div class="feature-item">
+    <h3>📝 Snippets</h3>
+    Guarda snippets frecuentes para reutilizar
+  </div>
+  <div class="feature-item">
+    <h3>⌨️ Atajos</h3>
+    Aprende los atajos de teclado principales
+  </div>
+  <div class="feature-item">
+    <h3>📚 Documentación</h3>
+    Documenta tus hallazgos y soluciones
+  </div>
+</div>
+
+## Recursos Adicionales
+
+<div class="devtools-panel">
+  <ul>
+    <li><a href="https://developer.chrome.com/docs/devtools/" target="_blank">Documentación oficial de Chrome DevTools</a></li>
+    <li><a href="https://www.youtube.com/c/GoogleChromeDevelopers" target="_blank">Canal de YouTube de Chrome Developers</a></li>
+    <li><a href="https://web.dev" target="_blank">Blog de Web.dev</a></li>
+  </ul>
+</div>
+
+## Próximos Pasos
+
+Explora cada panel en detalle utilizando la navegación lateral. Cada sección incluye ejemplos prácticos y mejores prácticas para ayudarte a ser más productivo en tu desarrollo web.
