@@ -1,0 +1,8 @@
+{
+  "label": "Herramientas de Desarrollo",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Aprende a usar las herramientas de desarrollo de Chrome para depurar, optimizar y mejorar tus aplicaciones web."
+  }
+}
