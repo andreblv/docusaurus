@@ -3,21 +3,193 @@
  * and scoped locally.
  */
 
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+.page {
+  scroll-behavior: smooth;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+.heroBanner {
+  padding: 4rem 2rem;
+  background-color: #ffffff;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.heroContent {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heroTitle {
+  font-family: 'Story of Bela', sans-serif;
+  font-size: 7rem;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 2rem;
+}
+
+.heroText p {
+  font-size: 1.8rem;
+  text-align: center;
+  color: #e0e0e0;
+  margin-top: 1rem;
 }
 
 .buttons {
   display: flex;
-  align-items: center;
+  gap: 1.5rem;
   justify-content: center;
+}
+
+.actionButton {
+  background-color: #1d4ed8;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.actionButton:hover {
+  background-color: #1e40af;
+}
+
+.actionButtonOutline {
+  background-color: #ffffff;
+  color: #1d4ed8;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid #1d4ed8;
+  transition: background-color 0.3s;
+}
+
+.actionButtonOutline:hover {
+  background-color: #e5e7eb;
+  color: #2563eb; /* Cambiar el texto a azul en lugar de blanco al pasar el cursor */
+}
+
+.features {
+  padding: 2rem;
+  background: var(--ifm-background-color);
+  margin-top: -2rem;
+}
+
+.featureGrid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.feature {
+  text-align: center;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  background: var(--ifm-card-background-color);
+  transition: all 0.3s ease;
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px -15px var(--ifm-color-emphasis-200);
+}
+
+.feature h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  font-family: 'Outfit', sans-serif;
+  background: linear-gradient(120deg, var(--feature-color-1), var(--feature-color-2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.feature p {
+  color: var(--ifm-font-color-base);
+  line-height: 1.6;
+  font-size: 1.2rem;
+  font-family: 'Outfit', sans-serif;
+}
+
+.sections {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 3rem;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.section {
+  flex: 1;
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.section:hover {
+  transform: translateY(-5px);
+}
+
+.section h3 {
+  font-family: 'Story of Bela', sans-serif;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.section p {
+  font-size: 1rem;
+  color: #333333;
+}
+
+[data-theme='dark'] .heroBanner {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+[data-theme='dark'] .heroTitle {
+  color: #ffffff;
+}
+
+[data-theme='dark'] .section {
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+}
+
+[data-theme='dark'] .section p {
+  color: #cccccc;
+}
+
+@media screen and (max-width: 996px) {
+  .heroTitle {
+    font-size: 3rem;
+  }
+
+  .featureGrid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+
+  .actionButton, .actionButtonOutline {
+    width: 100%;
+  }
 }
