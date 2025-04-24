@@ -44,7 +44,7 @@ const config = {
         title: 'Chrome DevTools',
         logo: {
           alt: 'Logo Chrome DevTools',
-          src: 'img/logo.svg',
+          src: 'img/icono.svg', // Cambiando al nuevo ícono
         },
         items: [
           {
