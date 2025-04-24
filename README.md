@@ -1,6 +1,18 @@
-# Website
+# 🛠️ Website - DevTools Docs
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+![📸 Preview](./static/img/image.png)
+
+Este sitio es parte de un nuevo proyecto enfocado en documentación técnica, creado con [Docusaurus](https://docusaurus.io/), ideal para herramientas relacionadas con el desarrollo web.
+
+---
+
+## 🔍 ¿Qué es?
+
+Una guía interactiva y moderna sobre cómo aprovechar al máximo el **inspector de elementos**, una de las herramientas más potentes del navegador para desarrolladores.  
+Explorá cómo analizar, editar y depurar el DOM y los estilos CSS directamente desde el navegador, optimizando tu flujo de trabajo como dev.
+
+---
+
 
 ### Installation
 
