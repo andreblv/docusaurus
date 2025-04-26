@@ -57,3 +57,6 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
 Clic here: [https://andreblv.github.io/docusaurus](https://andreblv.github.io/docusaurus).
 
+# Cpanel
+
+Clic here: [https://916655924.facturalo.co/docusaurus/](https://916655924.facturalo.co/docusaurus/).
